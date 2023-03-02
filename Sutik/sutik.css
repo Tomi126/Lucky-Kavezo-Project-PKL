@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(sutihatter.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(sutihatter.jpg);
 }
 
 .bemutato{
@@ -127,16 +127,13 @@ h1{
     font-size: 20px;
 }
 
-.bemutato{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Popins",sans-serif;
     background-color: rgba(000, 000, 000, 0.8)
 }
 
@@ -159,7 +156,15 @@ h1{
     transition: .4s ease;
 }
 .menu li a:hover{
-    color: crimson;
     padding: 5px 10px;
     border: 2px solid #fff;
+}
+
+.kosonto{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    margin-top: 20px;
+    font-family: "Poppins";
+    font-weight: bold;
 }
