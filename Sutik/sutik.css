@@ -13,13 +13,15 @@ body{
 .bemutato{
     text-align: center;
 }
-
+html {
+    overflow-y:scroll;
+}
 .egesz{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 70vh;
+    min-height: 80vh;
     font-family: "Popins",sans-serif;
 }
 
@@ -139,7 +141,7 @@ h1{
 
 .nav-bar .title{
     color: #fff;
-    font-size: 67px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -148,16 +150,20 @@ h1{
     display: inline-block;
 }
 .menu li a{
-    text-decoration: none;
     color: #fff;
-    font-size: 27px;
-    font-weight: 600;
-    margin-left: 25px;
-    transition: .4s ease;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
 }
 .menu li a:hover{
-    padding: 5px 10px;
-    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .kosonto{

@@ -9,12 +9,17 @@
     background-position: center;
     background-size: cover;
   }
+  html {
+    overflow-y:scroll;
+}
   .container{
-    max-width: 1300px;
+    max-width: 100%;
     padding: 20px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6)
+
   }
   .logo{
     font-size: 35px;
