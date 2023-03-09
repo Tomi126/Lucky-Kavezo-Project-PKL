@@ -7,18 +7,30 @@
 html {
     overflow-y:scroll;
 }
-.container {
-    max-width: 100%;
-    padding: 20px 50px;
+
+
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.6)
+    padding: 30px 80px;
+    font-family: "Popins",sans-serif;
+    background-color: rgba(000, 000, 000, 0.8)
 }
 
-.navbar-menu a {
+.nav-bar .title{
     color: #fff;
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    color: #fff;
+    font-size: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     padding: 12px 15px;
@@ -28,8 +40,7 @@ html {
     text-decoration: none;
     transition: 0.4s;
 }
-
-.navbar-menu a:hover {
+.menu li a:hover{
     background-color: #fff;
     color: #000;
 }
@@ -182,11 +193,6 @@ h2 {
 }
 
 
-.title-1 {
-    font-size: 40px;
-    color: #fff;
-    font-weight: 600;
-}
 .kosonto{
     text-align: center;
     color: white;

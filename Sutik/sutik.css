@@ -27,8 +27,8 @@ html {
 
 .box{
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +115,6 @@ html {
     color: #fff;
     font-weight: 200;
     letter-spacing: 2px;
-}
-
-h1{
-    color: #fff;
-    font-size: 50px;
 }
 
 
