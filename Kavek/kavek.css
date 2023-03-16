@@ -11,6 +11,7 @@ html {
 
 .nav-bar{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 30px 80px;
@@ -20,7 +21,7 @@ html {
 
 .nav-bar .title{
     color: #fff;
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: 600;
 }
 
@@ -30,11 +31,10 @@ html {
 }
 .menu li a{
     color: #fff;
-    font-size: 30px;
+    font-size: 3vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     padding: 12px 15px;
-    border-radius: 2px;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
@@ -79,9 +79,6 @@ h2 {
     text-align: left;
     background-color: wheat;
 }
-
-
-
 
 .box {
     position: relative;
@@ -196,7 +193,7 @@ h2 {
 .kosonto{
     text-align: center;
     color: white;
-    font-size: 65px;
+    font-size:6vw;
     margin-top: 20px;
     font-family: "Poppins";
     font-weight: bold;
