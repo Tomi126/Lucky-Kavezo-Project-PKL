@@ -45,6 +45,14 @@ html {
     color: #000;
 }
 
+@media screen and (max-width: 850px) {
+    .menu li {
+      display: list-item;
+      text-align: right;
+      float: none;
+    }
+  }
+
 body {
     height: 100vh;
     width: 100%;
