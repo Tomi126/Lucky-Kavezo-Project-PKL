@@ -9,41 +9,7 @@ html {
 }
 
 
-.nav-bar{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 80px;
-    font-family: "Popins",sans-serif;
-    background-color: rgba(000, 000, 000, 0.8)
-}
 
-.nav-bar .title{
-    color: #fff;
-    font-size: 5vw;
-    font-weight: 600;
-}
-
-.menu li{
-    list-style: none;
-    display: inline-block;
-}
-.menu li a{
-    color: #fff;
-    font-size: 3vw;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    padding: 12px 15px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-.menu li a:hover{
-    background-color: #fff;
-    color: #000;
-}
 
 @media screen and (max-width: 850px) {
     .menu li {
@@ -54,7 +20,7 @@ html {
   }
 
 body {
-    height: 100vh;
+    height: 10vh;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(coffeebg.jpg);
     background-size: cover;
@@ -69,39 +35,27 @@ h2 {
     text-align: center;
 }
 
-.main {
-    text-align: left;
-}
+
 
 .price {
     color: wheat;
     font-size: 20px;
 }
 
-.picturetext {
-    width: 150px;
-    font-size: 15pt;
-    font-weight: bold;
-    padding: 15px;
-    margin: 0px 0px 20px 0px;
-    text-align: left;
-    background-color: wheat;
-}
-
 .box {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
     background: #060c21;
-    transition: 1.3s;
+    transition: 0.9s;
 }
 
 .box:hover {
-    height: 600px;
+    height: 550px;
 }
 
 .box .imgBx {
@@ -194,15 +148,78 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 
 .kosonto{
     text-align: center;
     color: white;
-    font-size:6vw;
-    margin-top: 20px;
+    font-size: 70px;
+    margin-top: 10px;
     font-family: "Poppins";
     font-weight: bold;
+}
+
+nav{
+    height: 130px;
+    width: 100%;
+    background:black;
+    position: relative;
+    top: 0px;
+    padding-top: 18px;
+  }
+  label.logo{
+    color: white;
+    font-size: 60px;
+    line-height: 100px;
+    padding: 0 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+    z-index: 4;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 27px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a:hover{
+    background: white;
+    transition: .5s;
+  }
+
+  @media (max-width: 1019px){
+    label.logo{
+      display: none;
+    }
+    nav ul {
+      float: none;
+      text-align: center;
+    }
+    .kosonto{
+      font-size: 60px;
+    }
+  }
+
+@media (max-width:500px){
+  .kosonto{
+    font-size: 12vmin;
+  }
+  nav ul li a{
+    font-size: 6vmin;
+    padding: 4px;
+  }
+
 }
