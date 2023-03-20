@@ -21,27 +21,7 @@
     background-color: rgba(0, 0, 0, 0.6)
 
   }
-  .logo{
-    font-size: 35px;
-    color: #fff;
-  }
-  .navbar-menu a{
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 100;
-    padding: 12px 15px;
-    border-radius: 20px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-  }
-  
-  .navbar-menu a:hover{
-    background-color: #fff;
-    color: #000;
-  }
+
   .description{
     position:absolute;
     top: 50%;
@@ -59,7 +39,7 @@
     color: #fff;
     letter-spacing: 2px;
     line-height: 50px;
-    margin-top: 300px;
+    margin-top: 100px;
   }
   .description h1{
     font-size: 35px;
@@ -70,7 +50,7 @@
     letter-spacing: 5px;
     line-height: 70px;
   }
-  .description p{
+  .leiras{
     font-size: 20px;
     font-family: 'Raleway',sans-serif;
     font-weight: 100;
@@ -88,3 +68,66 @@
     line-height: 25px;
     margin-bottom: 30px;
   }
+
+  .abt{
+    font-size: 30px;
+  }
+
+
+
+  nav{
+    height: 130px;
+    width: 100%;
+    background:black;
+    position: relative;
+    top: 0px;
+    padding-top: 18px;
+  }
+  label.logo{
+    color: white;
+    font-size: 60px;
+    line-height: 100px;
+    padding: 0 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+    z-index: 4;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 27px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a:hover{
+    background: white;
+    transition: .5s;
+  }
+
+  @media (max-width: 1019px){
+    label.logo{
+      display: none;
+    }
+    nav ul {
+      float: none;
+      text-align: center;
+    }
+  }
+
+@media (max-width:500px){
+  nav ul li a{
+    font-size: 6vmin;
+    padding: 4px;
+  }
+
+}
