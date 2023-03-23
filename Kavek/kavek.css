@@ -221,5 +221,11 @@ nav{
     font-size: 6vmin;
     padding: 4px;
   }
-
+  .box{
+    width: 200px;
+    height: 200px;
+  }
+  .box .content{
+    bottom: 30px;
+  }
 }
