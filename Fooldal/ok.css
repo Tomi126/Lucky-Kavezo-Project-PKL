@@ -13,36 +13,22 @@
     overflow-y:scroll;
 }
 
-  .description{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    padding: 0 60px;
-    width: 100%;
-    text-align: center;
+  .kosonto{
+  margin-top: 100px;
   }
-  .description h2{
-    font-size: 50px;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 100;
-    color: #fff;
-    letter-spacing: 2px;
-    line-height: 50px;
-    margin-top: 100px;
-  }
-  .description h1{
-    font-size: 35px;
+
+.kosonto h1{
+    font-size: 45px;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 70px;
-  }
+    text-align: center;
+}
   .leiras{
-    font-size: 20px;
+    font-size: 23.5px;
     font-family: 'Raleway',sans-serif;
     font-weight: 100;
     color: #fff;
@@ -51,15 +37,20 @@
     margin-bottom: 30px;
   }
 
+  .minden{
+    text-align: center;
+  }
+
   .abt{
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
   }
 
 .elerhetosegek{
   list-style: none;
-  font-size: 20px;
+  font-size: 23px;
   margin-top: 30px;
+  color: white;
 }
 
 
@@ -120,28 +111,19 @@
 
 }
 
-
-
 @media (max-width: 550px){
-  .description h2{
-    font-size: 8vmin;
-  }
-
-  .description h1{
-    font-size: 5.2vmin;
-  }
 
   .leiras{
     font-size: 4vmin;
   }
-  .description{
-    padding: 0 10px;
-    height: 350px;
-    top: 40%;
-  }
+
   .elerhetosegek{
     font-size: 3vmin;
     height: 80px;
+  }
+  .kosonto h1{
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 350px){
@@ -152,4 +134,17 @@
     margin-bottom: 5px;
   }
 }
+
+@media (max-width:550px) {
+  .kosonto{
+    margin-top: 30px;
+  }  
+}
+
+@media (max-width:750) {
+  body{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
 }
