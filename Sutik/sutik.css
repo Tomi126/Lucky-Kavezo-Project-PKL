@@ -179,6 +179,17 @@ nav{
     transition: .5s;
   }
 
+
+  @media (max-width:1430px){
+    .box{
+      width: 225px;
+      height: 225px;
+    }
+    .kosonto{
+      font-size: 53px;
+    }
+  }
+
   @media (max-width: 1019px){
     label.logo{
       display: none;
@@ -187,9 +198,6 @@ nav{
       float: none;
       text-align: center;
     }
-    .kosonto{
-      font-size: 60px;
-    }
     .box .content{
       bottom: 55px;
       height: 200px;
@@ -197,9 +205,6 @@ nav{
   }
 
 @media (max-width:500px){
-  .kosonto{
-    font-size: 12vmin;
-  }
   nav ul li a{
     font-size: 6vmin;
     padding: 4px;
@@ -211,14 +216,8 @@ nav{
   .box .content{
     bottom: 50px;
   }
+  .kosonto{
+    font-size: 38px;
+  }
 }
 
-@media (max-width:1430px){
-  .box{
-    width: 225px;
-    height: 225px;
-  }
-  .kosonto{
-    font-size: 55px;
-  }
-}
